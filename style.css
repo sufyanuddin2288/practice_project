@@ -307,10 +307,10 @@ li {
 #partcar2 {
     width: 50%;
     margin-left: 150px;
-    
-    
 
-    
+
+
+
 
 
 }
@@ -395,9 +395,9 @@ li {
 
 }
 
-#st1:hover{
+#st1:hover {
 
-    border-top: #1f71d0;
+    border-top: 5px solid #1f71d0;
 
 
 }
@@ -412,6 +412,7 @@ li {
     background-color: #edf6fb;
     border-radius: 8px;
     border: 0;
+    transition: 0.3s ease;
 
 
 
@@ -427,7 +428,15 @@ li {
     background-color: #edf6fb;
     border-radius: 8px;
     border: 0;
+    transition: 0.3s ease;
 
+
+
+}
+
+#st2:hover {
+
+    border-top: 5px solid #1f71d0;
 
 
 }
@@ -441,7 +450,16 @@ li {
     margin-right: 40px;
     margin-top: 50px;
     background-color: #edf6fb;
-    border-radius: 8px
+    border-radius: 8px;
+    transition: 0.3s ease;
+
+}
+
+#st3:hover {
+
+    border-top: 5px solid #1f71d0;
+
+
 }
 
 #ph {
@@ -523,7 +541,7 @@ li {
 
 #dp1 {
     color: white;
-    
+
     width: 60%;
     text-align: center;
     padding-left: 120px;
@@ -535,7 +553,7 @@ li {
 
 #imgp2 {
 
-     height: 379px; 
+    height: 379px;
     width: 100%;
 }
 
@@ -573,7 +591,7 @@ li {
     padding-left: 10px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .rep1 {
@@ -584,7 +602,7 @@ li {
     padding-left: 10px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .rep2 {
@@ -595,7 +613,7 @@ li {
     padding-left: 10px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .rep3 {
@@ -606,7 +624,7 @@ li {
     padding-left: 10px;
     display: flex;
     align-items: center;
-    
+
 }
 
 .rep4 {
@@ -617,7 +635,7 @@ li {
     padding-left: 10px;
     display: flex;
     align-items: center;
-    
+
 }
 
 
@@ -628,21 +646,21 @@ h3 {
     margin-top: 30px;
 }
 
-#mid7{
-    
+#mid7 {
+
     display: flex;
-    
+
 }
 
-#imgp1{
+#imgp1 {
 
     width: 50%;
-    
+
 }
 
-#imgp21{
+#imgp21 {
     padding-left: 50px;
-    height: 379px; 
+    height: 379px;
     width: 100%;
 }
 
@@ -653,62 +671,62 @@ h3 {
     margin-left: 45px;
 }
 
-#mid8{
+#mid8 {
     width: 85%;
-    height:  200px;
+    height: 200px;
     display: flex;
     margin-top: 100px;
     margin-left: 150px;
 }
 
-#cli1{
+#cli1 {
     width: 25%;
-    
+
 }
 
-#cli2{
-    width: 25%;
-}
-
-#cli3{
+#cli2 {
     width: 25%;
 }
 
-#cli4{
+#cli3 {
     width: 25%;
 }
 
-#img9{
+#cli4 {
+    width: 25%;
+}
+
+#img9 {
 
     width: 70%;
     transition: 1s;
 }
 
-#img9:hover{
+#img9:hover {
     width: 90%;
 }
 
-#bckimg3{
-    background-image:  url(./assets/pricing_style1_background.jpg);
+#bckimg3 {
+    background-image: url(./assets/pricing_style1_background.jpg);
     height: 600px;
     width: 100%;
     display: flex;
-    
+
 }
 
-#map{
+#map {
 
     width: 50%;
     border: 2px solid black;
 }
 
 
-#footer{
+#footer {
     width: 50%;
     border: 2px solid black;
 }
 
-#get1{
+#get1 {
 
     color: white;
     margin-left: 100px;
@@ -717,21 +735,38 @@ h3 {
     font-size: 50px;
 
 }
-    
 
-#ol1{
+
+#ol1 {
     margin-top: 80px;
 }
 
-#text1{
-    width: 250px;
+#text1 {
+    width: 40%;
     height: 40px;
-    
-    
+    margin-top: 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    border: 0;
+
+
+}
+
+#text12 {
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: white;
+    background-color: black;
+    border: 0;
+
+
 }
 
 
-#lastbtn{
+#lastbtn {
 
     text-align: center;
     margin-left: 250px;
@@ -747,7 +782,60 @@ h3 {
 
 }
 
-#lastbtn:hover{
+#lastbtn:hover {
     width: 180px;
     height: 60px;
 }
+
+.btn12 {
+
+    position: fixed;
+    z-index: 99;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    left: 20px;
+
+}
+
+#btn121 {
+    padding: 8px 30px;
+    background-color: #454545;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+}
+
+#btn121:hover{
+    background-color: #7aa93c;
+    bottom: 4px;
+    
+}
+
+#btn121:active{
+    
+    opacity: 0.8;
+}
+
+#btn122 {
+    padding: 8px 30px;
+    background-color: #454545;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+}
+
+#btn122:hover{
+    background-color: peachpuff;
+    bottom: 4px;
+}
+
+#btn122:active{
+    background-color: rgba(255, 218, 185, 0.658);
+}
+
